@@ -17,9 +17,10 @@ public class Solution {
         Element section = web.body().getElementsByAttributeValue("title", "Ассортимент").first();
         Elements list = section.nextElementSibling().children();
 
-        System.out.println(section.attr("href"));
+        for (Element li: list){
+            Element link = li.getElementsByTag("a").first();
+            System.out.println(link.text() + ": " +  link.attr("href"));
+        }
 
-        for (Element element: list)
-            System.out.println(element.nodeName());
     }
 }
