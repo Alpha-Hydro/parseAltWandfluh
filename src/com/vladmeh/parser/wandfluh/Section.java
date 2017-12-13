@@ -10,6 +10,8 @@ public class Section {
 
     private String name;
 
+    private List<String> property;
+
     private List<Section> groups;
 
     public Section() {
@@ -36,9 +38,12 @@ public class Section {
         this.name = name;
     }
 
-    @Override
-    public String toString() {
-        return this.name + ": " + this.link;
+    public List<String> getProperty() {
+        return property;
+    }
+
+    public void setProperty(List<String> property) {
+        this.property = property;
     }
 
     public List<Section> getGroups() {
@@ -47,5 +52,10 @@ public class Section {
 
     public void setGroups(List<Section> groups) {
         this.groups = groups;
+    }
+
+    @Override
+    public String toString() {
+        return this.name + ": " + this.link;
     }
 }

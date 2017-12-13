@@ -2,19 +2,35 @@
   {
     "link": "/ru/assortiment/klapany-perekljuchenija/zolotnikovye-klapany/",
     "name": "Клапаны переключения",
+    "property": null,
     "groups": [
       {
         "link": "/ru/assortiment/klapany-perekljuchenija/zolotnikovye-klapany/",
         "name": "Золотниковые клапаны",
+        "property": [
+          "Исполнение с прямым и с пилотным управлением",
+          "Фланцевая конструкция",
+          "Электрический, пневматический, гидравлический и механический привод",
+          "Типоразмеры NG3-mini, NG4-mini, NG4-ISO, NG6 и NG10",
+          "Максимальное давление до 350 бар",
+          "Объемный расход до 100 л/мин",
+          "Стандартно малые утечки",
+          "Большой выбор специальных поршней",
+          "Уменьшенный и увеличенный зазор между поршнем и цилиндром для специальных применений",
+          "Исполнения с плавным включением для уменьшения ударов включения",
+          "Короткие сроки поставки, даже для специального оборудования"
+        ],
         "groups": [
           {
             "link": "/ru/assortiment/klapany-perekljuchenija/zolotnikovye-klapany/zolotnikovye-klapany-s-prjamym-upravleniem/",
             "name": "Золотниковые клапаны с прямым управлением",
+            "property": null,
             "groups": null
           },
           {
             "link": "/ru/assortiment/klapany-perekljuchenija/zolotnikovye-klapany/zolotnikovye-klapany-s-pilotnym-upravleniem/",
             "name": "Золотниковые клапаны с пилотным управлением",
+            "property": null,
             "groups": null
           }
         ]
@@ -22,15 +38,31 @@
       {
         "link": "/ru/assortiment/klapany-perekljuchenija/tarelchatye-klapany/",
         "name": "Тарельчатые клапаны",
+        "property": [
+          "Исполнение с прямым и с пилотным управлением",
+          "Фланцевая, многослойная и патронная конструкция",
+          "Электрический, пневматический и механический приводы",
+          "Типоразмеры NG3-mini, NG4-mini, NG6 и NG10",
+          "Резьбовые патроны: M18x1,5, M22x1,5 и M33x2",
+          "Максимальное давление до 350 бар",
+          "Объемный расход до 120 л/мин",
+          "Очень хорошая герметичность в обоих направлениях потока",
+          "Большой выбор функций и вариантов исполнения",
+          "Возможность вентиляции клапанов",
+          "Клапаны пропускают поток в обоих направлениях",
+          "Короткие сроки поставки, даже для специального оборудования"
+        ],
         "groups": [
           {
             "link": "/ru/assortiment/klapany-perekljuchenija/tarelchatye-klapany/tarelchatye-klapany-s-prjamym-upravleniem/",
             "name": "Тарельчатые клапаны с прямым управлением",
+            "property": null,
             "groups": null
           },
           {
             "link": "/ru/assortiment/klapany-perekljuchenija/tarelchatye-klapany/tarelchatye-klapany-s-pilotnym-upravleniem/",
             "name": "Тарельчатые клапаны с пилотным управлением",
+            "property": null,
             "groups": null
           }
         ]
@@ -38,30 +70,48 @@
       {
         "link": "/ru/assortiment/klapany-perekljuchenija/klapany-davlenija/",
         "name": "Клапаны давления",
+        "property": [
+          "Клапаны ограничения, регулирования, подпора давления, следящие, регулирующие заряд гидроаккумулятора",
+          "Фланцевая, многослойная и патронная конструкция",
+          "Ручной привод",
+          "Типоразмеры NG3-mini, NG4-mini, NG6 и NG10",
+          "Резьбовые патроны: M18x1.5; M22x1.5 и M33x2",
+          "Максимальное давление до 350 бар",
+          "Объемный расход до 100 л/мин",
+          "Исполнения с ручным приводом, регулирование поворотной ручкой, ключом и кнопкой с фиксацией",
+          "Большой выбор функций и вариантов исполнений",
+          "Исполнения с пилотным управлением для больших потоков",
+          "Короткие сроки поставки, даже для специального оборудования"
+        ],
         "groups": [
           {
             "link": "/ru/assortiment/klapany-perekljuchenija/klapany-davlenija/redukcionnyi-klapan/",
             "name": "Редукционный клапан",
+            "property": null,
             "groups": null
           },
           {
             "link": "/ru/assortiment/klapany-perekljuchenija/klapany-davlenija/klapany-regulirovki-davlenija/",
             "name": "Клапаны регулировки давления",
+            "property": null,
             "groups": null
           },
           {
             "link": "/ru/assortiment/klapany-perekljuchenija/klapany-davlenija/podpornye-klapany/",
             "name": "Подпорные клапаны",
+            "property": null,
             "groups": null
           },
           {
             "link": "/ru/assortiment/klapany-perekljuchenija/klapany-davlenija/sledjashchie-klapany/",
             "name": "Следящие клапаны",
+            "property": null,
             "groups": null
           },
           {
             "link": "/ru/assortiment/klapany-perekljuchenija/klapany-davlenija/klapany-regulirujushchie-zarjad-gidroakkumuljatora/",
             "name": "Клапаны, регулирующие заряд гидроаккумулятора",
+            "property": null,
             "groups": null
           }
         ]
@@ -69,30 +119,49 @@
       {
         "link": "/ru/assortiment/klapany-perekljuchenija/potochnye-klapany/",
         "name": "Поточные клапаны",
+        "property": [
+          "Клапаны дроссельные, дроссельные обратные и регулирующие объемный расход, разности давлений и механизмы подачи",
+          "Фланцевая, многослойная и патронная конструкция",
+          "Ручной привод",
+          "Регулирующие объемный расход клапаны 2-х и 3-ходовые",
+          "Типоразмеры NG3-mini, NG4-mini, NG6 и NG10",
+          "Резьбовые патроны: M18x1.5; M22x1.5 и M33x2",
+          "Максимальное давление до 350 бар",
+          "Объемный расход до 100 л/мин",
+          "Исполнения с ручным приводом, регулирование поворотной ручкой, ключом и кнопкой с фиксацией",
+          "Большой выбор функций и вариантов исполнения",
+          "Хорошая чувствительность и точность регулирования",
+          "Короткие сроки поставки, даже для специального оборудования"
+        ],
         "groups": [
           {
             "link": "/ru/assortiment/klapany-perekljuchenija/potochnye-klapany/drosselnye-klapany/",
             "name": "Дроссельные клапаны",
+            "property": null,
             "groups": null
           },
           {
             "link": "/ru/assortiment/klapany-perekljuchenija/potochnye-klapany/drosselnye-obratnye-klapany/",
             "name": "Дроссельные обратные клапаны",
+            "property": null,
             "groups": null
           },
           {
             "link": "/ru/assortiment/klapany-perekljuchenija/potochnye-klapany/klapany-regulirovanija-obemnogo-raskhoda/",
             "name": "Клапаны регулирования объемного расхода",
+            "property": null,
             "groups": null
           },
           {
             "link": "/ru/assortiment/klapany-perekljuchenija/potochnye-klapany/klapany-raznosti-davlenii/",
             "name": "Клапаны разности давлений",
+            "property": null,
             "groups": null
           },
           {
             "link": "/ru/assortiment/klapany-perekljuchenija/potochnye-klapany/mekhanizmy-podachi/",
             "name": "Механизмы подачи",
+            "property": null,
             "groups": null
           }
         ]
@@ -100,25 +169,42 @@
       {
         "link": "/ru/assortiment/klapany-perekljuchenija/zapornye-klapany/",
         "name": "Запорные клапаны",
+        "property": [
+          "Обратные и сервоуправляемые обратные клапаны",
+          "Сливные краны и предохранительные клапаны на случай разрыва трубы",
+          "Фланцевая, многослойная и патронная конструкция",
+          "Ручной привод",
+          "Типоразмеры NG3-mini, NG4-mini, NG6 и NG10",
+          "Резьбовые патроны: M22x1,5 и M33x2",
+          "Максимальное давление до 350 бар",
+          "Объемный расход до 100 л/мин",
+          "Большой выбор функций и вариантов исполнения",
+          "Исполнения с повышенной коррозионной стойкостью",
+          "Короткие сроки поставки, даже для специального оборудования"
+        ],
         "groups": [
           {
             "link": "/ru/assortiment/klapany-perekljuchenija/zapornye-klapany/klapany-obratnye/",
             "name": "Клапаны обратные",
+            "property": null,
             "groups": null
           },
           {
             "link": "/ru/assortiment/klapany-perekljuchenija/zapornye-klapany/klapany-obratnye-razblokiruemye/",
             "name": "Клапаны обратные разблокируемые",
+            "property": null,
             "groups": null
           },
           {
             "link": "/ru/assortiment/klapany-perekljuchenija/zapornye-klapany/krany-slivnye/",
             "name": "Краны сливные",
+            "property": null,
             "groups": null
           },
           {
             "link": "/ru/assortiment/klapany-perekljuchenija/zapornye-klapany/predokhraniteli-ot-razryva-trub/",
             "name": "Предохранители от разрыва труб",
+            "property": null,
             "groups": null
           }
         ]
@@ -126,15 +212,27 @@
       {
         "link": "/ru/assortiment/klapany-perekljuchenija/2-khodovye-vstraivaemye-klapany/",
         "name": "2-ходовые встраиваемые клапаны",
+        "property": [
+          "Патроны и крышки",
+          "Штепсельные патроны по ISO7368/DIN24342",
+          "Крышка управления с клапанами управления Wandfluh",
+          "Типоразмеры NG16, NG25, NG32 и NG40",
+          "Максимальное давление 350 бар",
+          "Объемный расход до 1200 л/мин",
+          "Большой выбор функций и вариантов исполнения",
+          "Короткие сроки поставки, даже для специального оборудования"
+        ],
         "groups": [
           {
             "link": "/ru/assortiment/klapany-perekljuchenija/2-khodovye-vstraivaemye-klapany/patrony/",
             "name": "Патроны",
+            "property": null,
             "groups": null
           },
           {
             "link": "/ru/assortiment/klapany-perekljuchenija/2-khodovye-vstraivaemye-klapany/kryshka-s-klapanami-upravlenija/",
             "name": "Крышка с клапанами управления",
+            "property": null,
             "groups": null
           }
         ]
@@ -144,19 +242,35 @@
   {
     "link": "/ru/assortiment/klapany-proporcionalnye/klapany-proporcionalnye-zolotnikovye/",
     "name": "Клапаны пропорциональные",
+    "property": null,
     "groups": [
       {
         "link": "/ru/assortiment/klapany-proporcionalnye/klapany-proporcionalnye-zolotnikovye/",
         "name": "Клапаны пропорциональные золотниковые",
+        "property": [
+          "Исполнение с прямым и с пилотным управлением",
+          "Фланцевая конструкция",
+          "с встроенной электроникой (DSV)",
+          "С регулированием положения поршня (LVDT)",
+          "Типоразмеры NG-3 и NG-4 мини, NG4, NG6 и NG10 ISO",
+          "Screw-in cartridge 7/8\"-14 and 3/4\"-16 UNF",
+          "Максимальное давление 350 бар",
+          "Объемный расход до 200 л/мин",
+          "Стандартно малые утечки",
+          "Малый гистерезис и точное разрешение",
+          "Короткие сроки поставки, даже для специального оборудования"
+        ],
         "groups": [
           {
             "link": "/ru/assortiment/klapany-proporcionalnye/klapany-proporcionalnye-zolotnikovye/proporcionalnye-zolotnikovye-klapany-s-prjamym-upravleniem/",
             "name": "Пропорциональные золотниковые клапаны с прямым управлением",
+            "property": null,
             "groups": null
           },
           {
             "link": "/ru/assortiment/klapany-proporcionalnye/klapany-proporcionalnye-zolotnikovye/klapany-proporcionalnye-zolotnikovye-s-pilotnym-upravleniem/",
             "name": "Клапаны пропорциональные золотниковые с пилотным управлением",
+            "property": null,
             "groups": null
           }
         ]
@@ -164,15 +278,32 @@
       {
         "link": "/ru/assortiment/klapany-proporcionalnye/klapany-davlenija-proporcionalnye/",
         "name": "Клапаны давления пропорциональные",
+        "property": [
+          "Клапаны редукционные пропорциональные и клапаны регулировки давления пропорциональные",
+          "Исполнение с прямым и с пилотным управлением",
+          "Фланцевая, многослойная и патронная конструкция",
+          "с встроенной электроникой (DSV)",
+          "Типоразмеры NG3-мини, NG4-мини, NG6 и NG10",
+          "Резьбовые патроны: M18x1,5, M22x1,5 и M33x2",
+          "",
+          "Максимальное давление до 350 бар",
+          "Объемный расход до 100 л/мин",
+          "Малый гистерезис и точное разрешение",
+          "Большой выбор функций и вариантов исполнения",
+          "Исполнения с пилотным управлением для больших объемных расходов",
+          "Короткие сроки поставки, даже для специального оборудования"
+        ],
         "groups": [
           {
             "link": "/ru/assortiment/klapany-proporcionalnye/klapany-davlenija-proporcionalnye/proporcionalnye-redukcionnye-klapany/",
             "name": "Пропорциональные редукционные клапаны",
+            "property": null,
             "groups": null
           },
           {
             "link": "/ru/assortiment/klapany-proporcionalnye/klapany-davlenija-proporcionalnye/klapany-regulirovki-davlenija-proporcionalnye/",
             "name": "Клапаны регулировки давления пропорциональные",
+            "property": null,
             "groups": null
           }
         ]
@@ -180,15 +311,32 @@
       {
         "link": "/ru/assortiment/klapany-proporcionalnye/klapany-potochnye-proporcionalnye/",
         "name": "Клапаны поточные пропорциональные",
+        "property": [
+          "Клапаны дроссельные пропорциональные и клапаны регулирования объемного расхода пропорциональные",
+          "Клапаны регулирования объемного расхода в 2- и 3-ходовом исполнении",
+          "Фланцевая, многослойная и патронная конструкция",
+          "С встроенной электроникой (DSV)",
+          "\"Все в одном\" (регулятор расхода/тарельчатый клапан/ограничитель скорости)",
+          "Типоразмеры NG3-мини, NG4-мини, NG6 и NG10",
+          "Резьбовые патроны: M18x1,5, M22x1,5 и M33x2",
+          "Максимальное давление до 350 бар",
+          "Объемный расход до 100 л/мин",
+          "Малый гистерезис и точное разрешение",
+          "Большой выбор функций и вариантов исполнения",
+          "Исполнения с пилотным управлением для больших объемных расходов",
+          "Короткие сроки поставки, даже для специального оборудования"
+        ],
         "groups": [
           {
             "link": "/ru/assortiment/klapany-proporcionalnye/klapany-potochnye-proporcionalnye/klapany-drosselnye-proporcionalnye/",
             "name": "Клапаны дроссельные пропорциональные",
+            "property": null,
             "groups": null
           },
           {
             "link": "/ru/assortiment/klapany-proporcionalnye/klapany-potochnye-proporcionalnye/klapany-regulirovanija-obemnogo-raskhoda-proporcionalnye/",
             "name": "Клапаны регулирования объемного расхода пропорциональные",
+            "property": null,
             "groups": null
           }
         ]
@@ -198,19 +346,33 @@
   {
     "link": "/ru/assortiment/ehlektronnoe-oborudovanie/ehlektronnye-usiliteli/",
     "name": "Электронное оборудование",
+    "property": null,
     "groups": [
       {
         "link": "/ru/assortiment/ehlektronnoe-oborudovanie/ehlektronnye-usiliteli/",
         "name": "Электронные усилители",
+        "property": [
+          "Аналоговые и цифровые усилители",
+          "Для применения в промышленных и мобильных изделиях",
+          "В виде штекерного разъема, в формате Europe card, как модуль с защелкой и как мобильная электроника",
+          "Для управления одним, двумя, четырьмя или восемью пропорциональными электромагнитами",
+          "Разъем соответствует DIN 43650, конструкция A для простых применений",
+          "Europe card и модуль с защелкой с возможностью параметризации на передней панели или с помощью управляемой через меню ПО диагностики и параметризации Стандартные исполнения расширяются дополнительными модулями и функциями",
+          "Простое и быстрое обращение",
+          "Возможность адаптации к требованиям клиента без изменения аппаратной части",
+          "Короткие сроки поставки, даже для специального оборудования"
+        ],
         "groups": [
           {
             "link": "/ru/assortiment/ehlektronnoe-oborudovanie/ehlektronnye-usiliteli/analogovye-ehlektronnye-usiliteli/",
             "name": "Аналоговые электронные усилители",
+            "property": null,
             "groups": null
           },
           {
             "link": "/ru/assortiment/ehlektronnoe-oborudovanie/ehlektronnye-usiliteli/cifrovye-ehlektronnye-usiliteli/",
             "name": "Цифровые электронные усилители",
+            "property": null,
             "groups": null
           }
         ]
@@ -218,10 +380,25 @@
       {
         "link": "/ru/assortiment/ehlektronnoe-oborudovanie/ehlektronnye-ustroistva-regulirovanija/",
         "name": "Электронные устройства регулирования",
+        "property": [
+          "Цифровые устройства регулирования",
+          "Регуляторы положения, давления, объемного расхода и расхода",
+          "Осевой регулятор со свободно настраиваемыми профилями движения",
+          "Для аналоговых и частично цифровых систем измерения",
+          "Для применения в промышленности",
+          "В формате Europe card и как модуль с защелкой",
+          "Для управления двумя или четырьмя пропорциональными электромагнитами",
+          "Параметризация с помощью управляемого через меню ПО диагностики и параметризации",
+          "Привязка к шине (CANopen, PROFIBUS DP) по запросу",
+          "Простое и быстрое обращение",
+          "Возможность адаптации к требованиям клиента без изменения аппаратной части",
+          "Короткие сроки поставки, даже для специального оборудования"
+        ],
         "groups": [
           {
             "link": "/ru/assortiment/ehlektronnoe-oborudovanie/ehlektronnye-ustroistva-regulirovanija/cifrovye-ustroistva-regulirovanija/",
             "name": "Цифровые устройства регулирования",
+            "property": null,
             "groups": null
           }
         ]
@@ -231,59 +408,77 @@
   {
     "link": "/ru/assortiment/komplektujushchie/gidravlicheskie-komplektujushchie/",
     "name": "Комплектующие",
+    "property": null,
     "groups": [
       {
         "link": "/ru/assortiment/komplektujushchie/gidravlicheskie-komplektujushchie/",
         "name": "Гидравлические комплектующие",
+        "property": [
+          "Резьбовые присоединительные пластины, монтажные плиты для нескольких устройств, блоки продольного сопряжения, резьбовые присоединительные блоки, многослойные резьбовые блоки, резьбовые присоединительные блоки для резьбовых патронов, заглушки и поворотные пластины, уплотняющие и промежуточные пластины and distance plates",
+          "Резьбовые присоединительные блоки для резьбовых патронов по ISO 7789",
+          "Типоразмеры NG3-мини, NG4-мини, NG6 и NG10",
+          "Максимальное давление 350 бар",
+          "Короткие сроки поставки, даже для специального оборудования"
+        ],
         "groups": [
           {
             "link": "/ru/assortiment/komplektujushchie/gidravlicheskie-komplektujushchie/rezbovye-prisoedinitelnye-plastiny/",
             "name": "Резьбовые присоединительные пластины",
+            "property": null,
             "groups": null
           },
           {
             "link": "/ru/assortiment/komplektujushchie/gidravlicheskie-komplektujushchie/montazhnye-plity-dlja-neskolkikh-ustroistv/",
             "name": "Монтажные плиты для нескольких устройств",
+            "property": null,
             "groups": null
           },
           {
             "link": "/ru/assortiment/komplektujushchie/gidravlicheskie-komplektujushchie/bloki-prodolnogo-soprjazhenija/",
             "name": "Блоки продольного сопряжения",
+            "property": null,
             "groups": null
           },
           {
             "link": "/ru/assortiment/komplektujushchie/gidravlicheskie-komplektujushchie/rezbovoi-prisoedinitelnyi-blok/",
             "name": "Резьбовой присоединительный блок",
+            "property": null,
             "groups": null
           },
           {
             "link": "/ru/assortiment/komplektujushchie/gidravlicheskie-komplektujushchie/mnogosloinyi-rezbovoi-blok/",
             "name": "Многослойный резьбовой блок",
+            "property": null,
             "groups": null
           },
           {
             "link": "/ru/assortiment/komplektujushchie/gidravlicheskie-komplektujushchie/kreplenija-dlja-prodolnogo-soprjazhenija/",
             "name": "Крепления для продольного сопряжения",
+            "property": null,
             "groups": null
           },
           {
             "link": "/ru/assortiment/komplektujushchie/gidravlicheskie-komplektujushchie/kreplenija-dlja-vertikalnogo-soprjazhenija/",
             "name": "Крепления для вертикального сопряжения",
+            "property": null,
             "groups": null
           },
           {
             "link": "/ru/assortiment/komplektujushchie/gidravlicheskie-komplektujushchie/zaglushki-i-povorotnye-plastiny/",
             "name": "Заглушки и поворотные пластины",
+            "property": null,
             "groups": null
           },
           {
             "link": "/ru/assortiment/komplektujushchie/gidravlicheskie-komplektujushchie/uplotnjajushchie-i-promezhutochnye-plastiny/",
             "name": "Уплотняющие и промежуточные пластины",
+            "property": null,
             "groups": null
           },
           {
             "link": "/ru/assortiment/komplektujushchie/gidravlicheskie-komplektujushchie/distance-plates/",
             "name": "Distance plates",
+            "property": null,
             "groups": null
           }
         ]
@@ -291,10 +486,12 @@
       {
         "link": "/ru/assortiment/komplektujushchie/ehlektronnoe-oborudovanie-komplektujushchie/",
         "name": "Электронное оборудование, комплектующие",
+        "property": null,
         "groups": [
           {
             "link": "/ru/assortiment/komplektujushchie/ehlektronnoe-oborudovanie-komplektujushchie/ehlektronnoe-oborudovanie-komplektujushchie/",
             "name": "Электронное оборудование, комплектующие",
+            "property": [],
             "groups": null
           }
         ]
@@ -302,20 +499,35 @@
       {
         "link": "/ru/assortiment/komplektujushchie/ehlektromagnity/",
         "name": "Электромагниты",
+        "property": [
+          "Магниты переключающие и пропорциональные",
+          "Исполнение фланцевое и со сменными катушками",
+          "Размеры 29 мм, 35 мм, 45 мм и 60 мм",
+          "Мокрые магниты для статической герметичности до 350 бар",
+          "Исполнения для постоянного тока (10...250 В-) Исполнения для переменного тока (24...250В~) с интегрированной схемой выпрямления",
+          "Различные исполнения кабелей и разъемов",
+          "Класс защиты IP65 (IP67 как опция)",
+          "Стандартное литье",
+          "Электромагниты для относительной продолжительности включения 100% и непрерывной работы",
+          "Короткие сроки поставки, даже для специального оборудования"
+        ],
         "groups": [
           {
             "link": "/ru/assortiment/komplektujushchie/ehlektromagnity/perekljuchajushchie-ehlektromagnity/",
             "name": "Переключающие электромагниты",
+            "property": null,
             "groups": null
           },
           {
             "link": "/ru/assortiment/komplektujushchie/ehlektromagnity/proporcionalnye-ehlektromagnity/",
             "name": "Пропорциональные электромагниты",
+            "property": null,
             "groups": null
           },
           {
             "link": "/ru/assortiment/komplektujushchie/ehlektromagnity/smennye-katushki-so-shtepselnym-kontaktom/",
             "name": "Сменные катушки со штепсельным контактом",
+            "property": null,
             "groups": null
           }
         ]
@@ -325,29 +537,48 @@
   {
     "link": "/ru/assortiment/atex-ustroistva/atex-klapany/",
     "name": "ATEX-устройства",
+    "property": null,
     "groups": [
       {
         "link": "/ru/assortiment/atex-ustroistva/atex-klapany/",
         "name": "ATEX-клапаны",
+        "property": [
+          "Клапаны золотниковые, клапаны пропорциональные золотниковые, клапаны тарельчатые, клапаны давления пропорциональные",
+          "Фланцевое и патронное исполнение",
+          "Типоразмеры: NG4-мини, NG6 и NG10",
+          "Резьбовые патроны: M22x1,5 и M33x2",
+          "Максимальное давление до 350 бар",
+          "Объемный расход до 100 л/мин",
+          "Взрывозащита по 60 079 (EN 50 014)",
+          "Применение в зонах 0, 1 и 2",
+          "Классы температур до T4 или до T6 соотв.",
+          "Повышенная безопасность, герметизация компаундом, искробезопасность",
+          "Ex e, Ex d, Ex ia",
+          "Короткие сроки поставки, даже для специального оборудования"
+        ],
         "groups": [
           {
             "link": "/ru/assortiment/atex-ustroistva/atex-klapany/zolotnikovye-klapany-atex/",
             "name": "Золотниковые клапаны ATEX",
+            "property": null,
             "groups": null
           },
           {
             "link": "/ru/assortiment/atex-ustroistva/atex-klapany/tarelchatye-klapany-atex/",
             "name": "Тарельчатые клапаны ATEX",
+            "property": null,
             "groups": null
           },
           {
             "link": "/ru/assortiment/atex-ustroistva/atex-klapany/klapany-davlenija-atex/",
             "name": "Клапаны давления ATEX",
+            "property": null,
             "groups": null
           },
           {
             "link": "/ru/assortiment/atex-ustroistva/atex-klapany/atex-flow-control-valves/",
             "name": "ATEX flow control valves",
+            "property": null,
             "groups": null
           }
         ]
@@ -355,15 +586,27 @@
       {
         "link": "/ru/assortiment/atex-ustroistva/ehlektromagnity-atex/",
         "name": "Электромагниты ATEX",
+        "property": [
+          "Заливка компаундом и искробезопасность",
+          "Конструкция со сменной катушкой",
+          "Взрывозащита по 60 079",
+          "Применение в зонах 0, 1 и 2",
+          "Классы температур до T4 - T6 соотв.",
+          "Заливка компаундом, искробезопасность",
+          "Ex d, Ex ia",
+          "Короткие сроки поставки даже для специальных обмоток"
+        ],
         "groups": [
           {
             "link": "/ru/assortiment/atex-ustroistva/ehlektromagnity-atex/zalivka-kompaundom/",
             "name": "Заливка компаундом",
+            "property": null,
             "groups": null
           },
           {
             "link": "/ru/assortiment/atex-ustroistva/ehlektromagnity-atex/iskrobezopasnost/",
             "name": "Искробезопасность",
+            "property": null,
             "groups": null
           }
         ]
