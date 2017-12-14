@@ -108,8 +108,10 @@ public class Solution {
 
                 group.setLevel(level);
 
-                if (level == 1)
-                    parsePropertyImage(group);
+                switch (level){
+                    case 1: parsePropertyImage(group);
+                    case 2: parseProductCategory(group);
+                }
 
                 List<Section> subGroups = getSubSections(a, level+1);
                 if (!subGroups.isEmpty()){
@@ -120,6 +122,21 @@ public class Solution {
         }
 
         return subSections;
+    }
+
+    private static void parseProductCategory(Section group) throws IOException {
+        Document pageProducts = Jsoup.connect(HOST + group.getLink()).get();
+
+        Elements tableProducts = pageProducts.select("table.wagtable");
+
+        if (tableProducts != null && !tableProducts.isEmpty()){
+            List<ProductCategory> productCategories = new ArrayList<>();
+            for (Element table: tableProducts){
+                Element title = table.previousElementSibling();
+                productCategories.add(new ProductCategory(title.children().text()));
+            }
+            group.setProductCategories(productCategories);
+        }
     }
 
     private static void parsePropertyImage(Section group) throws IOException {

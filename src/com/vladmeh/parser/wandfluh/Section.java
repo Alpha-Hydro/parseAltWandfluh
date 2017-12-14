@@ -18,6 +18,8 @@ public class Section {
 
     private List<Section> groups;
 
+    private List<ProductCategory> productCategories;
+
     public Section() {
     }
 
@@ -72,6 +74,14 @@ public class Section {
 
     public void setLevel(Integer level) {
         this.level = level;
+    }
+
+    public List<ProductCategory> getProductCategories() {
+        return productCategories;
+    }
+
+    public void setProductCategories(List<ProductCategory> productCategories) {
+        this.productCategories = productCategories;
     }
 
     @Override
