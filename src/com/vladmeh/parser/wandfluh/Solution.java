@@ -1,13 +1,17 @@
 package com.vladmeh.parser.wandfluh;
 
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
+import sun.plugin.javascript.navig.Array;
 
 import java.io.*;
+import java.net.URL;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -16,6 +20,8 @@ import java.util.List;
 public class Solution {
 
     private static final String HOST = "http://alt.wandfluh.com";
+    public static final String UPLOAD_IMG = "data\\img\\";
+    public static final String UPLOAD_PDF = "data\\pdf\\";
     /**
      * The entry point of application.
      *
@@ -26,8 +32,18 @@ public class Solution {
         Document web = Jsoup.connect("http://alt.wandfluh.com/ru/karta-saita/").get();
         Element element = web.body().getElementsByAttributeValue("title", "Ассортимент").first();
 
+
         List<Section> sections = getSubSections(element, 0);
         writeJsonFile(sections);
+
+        /*String link = HOST + "/fileadmin/user_upload/files/A_Dok/reg_1_2/1_2_26p_e.pdf";
+        String[] path = link.split("/");
+        String filePathName = UPLOAD_PDF + path[path.length -1];
+
+        File file = new File(filePathName);
+
+
+        System.out.println(!file.exists());*/
     }
 
     /**
@@ -36,8 +52,46 @@ public class Solution {
      */
     private static void writeJsonFile(List<?> list) throws IOException {
         ObjectMapper mapper = new ObjectMapper();
+        mapper.setSerializationInclusion(JsonInclude.Include.NON_NULL);
         mapper.writeValue(new File("data\\sections.json"), list);
     }
+
+    /**
+     * @param list List
+     * @throws IOException the io exception
+     */
+    private static void writeJson(List<?> list) throws IOException {
+        StringWriter writer = new StringWriter();
+        ObjectMapper mapper = new ObjectMapper();
+        mapper.setSerializationInclusion(JsonInclude.Include.NON_NULL);
+        mapper.writeValue(writer, list);
+        System.out.println(writer.toString());
+    }
+
+    /**
+     * @param link String
+     * @param filePathName String
+     * @return boolean
+     * @throws IOException the io exception
+     */
+    private static boolean downloadFile(String link, String filePathName) throws IOException {
+        URL url = new URL(link);
+        File file = new File(filePathName);
+        if (!file.exists()){
+            try (
+                    InputStream is = new BufferedInputStream(url.openStream());
+                    OutputStream os = new FileOutputStream(file)
+            ) {
+                byte[] buffer = new byte[is.available()];
+                int length;
+                while ((length = is.read(buffer)) > 0) {
+                    os.write(buffer, 0, length);
+                }
+            }
+        }
+        return true;
+    }
+
 
     /**
      * @param element Element
@@ -52,9 +106,9 @@ public class Solution {
                 Element a = el.getElementsByTag("a").first();
                 Section group = new Section(a.attr("href"), a.text());
 
-                System.out.println(level);
+                group.setLevel(level);
 
-                if (level > 0)
+                if (level == 1)
                     parsePropertyImage(group);
 
                 List<Section> subGroups = getSubSections(a, level+1);
@@ -71,16 +125,29 @@ public class Solution {
     private static void parsePropertyImage(Section group) throws IOException {
         Document pageGroup = Jsoup.connect(HOST + group.getLink()).get();
 
-        Element element = pageGroup.selectFirst(".csc-textpic-text");
+        Element container = pageGroup.getElementById("fcecontainer2");
+        Element elProperty = container.getElementsByTag("ul").first();
 
-        if (element != null){
-
-            Elements list = element.child(0).children();
+        if (elProperty != null){
+            Elements list = elProperty.children();
             List<String> properties = new ArrayList<>();
             for (Element li: list)
                 properties.add(li.text());
 
             group.setProperty(properties);
+        }
+
+        Element elImage = pageGroup.selectFirst(".csc-textpic-image");
+        if (elImage != null){
+            Element img = elImage.getElementsByTag("img").first();
+            String linkImg = img.attr("src");
+
+            String link = HOST + linkImg;
+            String[] path = link.split("/");
+            String filePathName = UPLOAD_IMG + path[path.length -1];
+
+            if (downloadFile(link, filePathName))
+                group.setImage(filePathName);
         }
     }
 }

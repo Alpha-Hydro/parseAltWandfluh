@@ -6,9 +6,13 @@ import java.util.List;
  * @autor mvl on 12.12.2017.
  */
 public class Section {
+    private Integer level;
+
     private String link;
 
     private String name;
+
+    private String image;
 
     private List<String> property;
 
@@ -38,6 +42,14 @@ public class Section {
         this.name = name;
     }
 
+    public String getImage() {
+        return image;
+    }
+
+    public void setImage(String image) {
+        this.image = image;
+    }
+
     public List<String> getProperty() {
         return property;
     }
@@ -52,6 +64,14 @@ public class Section {
 
     public void setGroups(List<Section> groups) {
         this.groups = groups;
+    }
+
+    public Integer getLevel() {
+        return level;
+    }
+
+    public void setLevel(Integer level) {
+        this.level = level;
     }
 
     @Override

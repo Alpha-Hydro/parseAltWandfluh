@@ -1,12 +1,14 @@
 [
   {
+    "level": 0,
     "link": "/ru/assortiment/klapany-perekljuchenija/zolotnikovye-klapany/",
     "name": "Клапаны переключения",
-    "property": null,
     "groups": [
       {
+        "level": 1,
         "link": "/ru/assortiment/klapany-perekljuchenija/zolotnikovye-klapany/",
         "name": "Золотниковые клапаны",
+        "image": "data\\img\\csm_1_schieberventile_01_ee7cf6a864.gif",
         "property": [
           "Исполнение с прямым и с пилотным управлением",
           "Фланцевая конструкция",
@@ -22,22 +24,22 @@
         ],
         "groups": [
           {
+            "level": 2,
             "link": "/ru/assortiment/klapany-perekljuchenija/zolotnikovye-klapany/zolotnikovye-klapany-s-prjamym-upravleniem/",
-            "name": "Золотниковые клапаны с прямым управлением",
-            "property": null,
-            "groups": null
+            "name": "Золотниковые клапаны с прямым управлением"
           },
           {
+            "level": 2,
             "link": "/ru/assortiment/klapany-perekljuchenija/zolotnikovye-klapany/zolotnikovye-klapany-s-pilotnym-upravleniem/",
-            "name": "Золотниковые клапаны с пилотным управлением",
-            "property": null,
-            "groups": null
+            "name": "Золотниковые клапаны с пилотным управлением"
           }
         ]
       },
       {
+        "level": 1,
         "link": "/ru/assortiment/klapany-perekljuchenija/tarelchatye-klapany/",
         "name": "Тарельчатые клапаны",
+        "image": "data\\img\\csm_sitzventile_01_9ac0fb0f5c.gif",
         "property": [
           "Исполнение с прямым и с пилотным управлением",
           "Фланцевая, многослойная и патронная конструкция",
@@ -54,22 +56,22 @@
         ],
         "groups": [
           {
+            "level": 2,
             "link": "/ru/assortiment/klapany-perekljuchenija/tarelchatye-klapany/tarelchatye-klapany-s-prjamym-upravleniem/",
-            "name": "Тарельчатые клапаны с прямым управлением",
-            "property": null,
-            "groups": null
+            "name": "Тарельчатые клапаны с прямым управлением"
           },
           {
+            "level": 2,
             "link": "/ru/assortiment/klapany-perekljuchenija/tarelchatye-klapany/tarelchatye-klapany-s-pilotnym-upravleniem/",
-            "name": "Тарельчатые клапаны с пилотным управлением",
-            "property": null,
-            "groups": null
+            "name": "Тарельчатые клапаны с пилотным управлением"
           }
         ]
       },
       {
+        "level": 1,
         "link": "/ru/assortiment/klapany-perekljuchenija/klapany-davlenija/",
         "name": "Клапаны давления",
+        "image": "data\\img\\csm_1_druckventile_4b5f6430aa.gif",
         "property": [
           "Клапаны ограничения, регулирования, подпора давления, следящие, регулирующие заряд гидроаккумулятора",
           "Фланцевая, многослойная и патронная конструкция",
@@ -85,40 +87,37 @@
         ],
         "groups": [
           {
+            "level": 2,
             "link": "/ru/assortiment/klapany-perekljuchenija/klapany-davlenija/redukcionnyi-klapan/",
-            "name": "Редукционный клапан",
-            "property": null,
-            "groups": null
+            "name": "Редукционный клапан"
           },
           {
+            "level": 2,
             "link": "/ru/assortiment/klapany-perekljuchenija/klapany-davlenija/klapany-regulirovki-davlenija/",
-            "name": "Клапаны регулировки давления",
-            "property": null,
-            "groups": null
+            "name": "Клапаны регулировки давления"
           },
           {
+            "level": 2,
             "link": "/ru/assortiment/klapany-perekljuchenija/klapany-davlenija/podpornye-klapany/",
-            "name": "Подпорные клапаны",
-            "property": null,
-            "groups": null
+            "name": "Подпорные клапаны"
           },
           {
+            "level": 2,
             "link": "/ru/assortiment/klapany-perekljuchenija/klapany-davlenija/sledjashchie-klapany/",
-            "name": "Следящие клапаны",
-            "property": null,
-            "groups": null
+            "name": "Следящие клапаны"
           },
           {
+            "level": 2,
             "link": "/ru/assortiment/klapany-perekljuchenija/klapany-davlenija/klapany-regulirujushchie-zarjad-gidroakkumuljatora/",
-            "name": "Клапаны, регулирующие заряд гидроаккумулятора",
-            "property": null,
-            "groups": null
+            "name": "Клапаны, регулирующие заряд гидроаккумулятора"
           }
         ]
       },
       {
+        "level": 1,
         "link": "/ru/assortiment/klapany-perekljuchenija/potochnye-klapany/",
         "name": "Поточные клапаны",
+        "image": "data\\img\\csm_1_stromventile_2603bba366.gif",
         "property": [
           "Клапаны дроссельные, дроссельные обратные и регулирующие объемный расход, разности давлений и механизмы подачи",
           "Фланцевая, многослойная и патронная конструкция",
@@ -135,40 +134,37 @@
         ],
         "groups": [
           {
+            "level": 2,
             "link": "/ru/assortiment/klapany-perekljuchenija/potochnye-klapany/drosselnye-klapany/",
-            "name": "Дроссельные клапаны",
-            "property": null,
-            "groups": null
+            "name": "Дроссельные клапаны"
           },
           {
+            "level": 2,
             "link": "/ru/assortiment/klapany-perekljuchenija/potochnye-klapany/drosselnye-obratnye-klapany/",
-            "name": "Дроссельные обратные клапаны",
-            "property": null,
-            "groups": null
+            "name": "Дроссельные обратные клапаны"
           },
           {
+            "level": 2,
             "link": "/ru/assortiment/klapany-perekljuchenija/potochnye-klapany/klapany-regulirovanija-obemnogo-raskhoda/",
-            "name": "Клапаны регулирования объемного расхода",
-            "property": null,
-            "groups": null
+            "name": "Клапаны регулирования объемного расхода"
           },
           {
+            "level": 2,
             "link": "/ru/assortiment/klapany-perekljuchenija/potochnye-klapany/klapany-raznosti-davlenii/",
-            "name": "Клапаны разности давлений",
-            "property": null,
-            "groups": null
+            "name": "Клапаны разности давлений"
           },
           {
+            "level": 2,
             "link": "/ru/assortiment/klapany-perekljuchenija/potochnye-klapany/mekhanizmy-podachi/",
-            "name": "Механизмы подачи",
-            "property": null,
-            "groups": null
+            "name": "Механизмы подачи"
           }
         ]
       },
       {
+        "level": 1,
         "link": "/ru/assortiment/klapany-perekljuchenija/zapornye-klapany/",
         "name": "Запорные клапаны",
+        "image": "data\\img\\csm_1_sperrventile_3faf5d59f6.gif",
         "property": [
           "Обратные и сервоуправляемые обратные клапаны",
           "Сливные краны и предохранительные клапаны на случай разрыва трубы",
@@ -184,34 +180,32 @@
         ],
         "groups": [
           {
+            "level": 2,
             "link": "/ru/assortiment/klapany-perekljuchenija/zapornye-klapany/klapany-obratnye/",
-            "name": "Клапаны обратные",
-            "property": null,
-            "groups": null
+            "name": "Клапаны обратные"
           },
           {
+            "level": 2,
             "link": "/ru/assortiment/klapany-perekljuchenija/zapornye-klapany/klapany-obratnye-razblokiruemye/",
-            "name": "Клапаны обратные разблокируемые",
-            "property": null,
-            "groups": null
+            "name": "Клапаны обратные разблокируемые"
           },
           {
+            "level": 2,
             "link": "/ru/assortiment/klapany-perekljuchenija/zapornye-klapany/krany-slivnye/",
-            "name": "Краны сливные",
-            "property": null,
-            "groups": null
+            "name": "Краны сливные"
           },
           {
+            "level": 2,
             "link": "/ru/assortiment/klapany-perekljuchenija/zapornye-klapany/predokhraniteli-ot-razryva-trub/",
-            "name": "Предохранители от разрыва труб",
-            "property": null,
-            "groups": null
+            "name": "Предохранители от разрыва труб"
           }
         ]
       },
       {
+        "level": 1,
         "link": "/ru/assortiment/klapany-perekljuchenija/2-khodovye-vstraivaemye-klapany/",
         "name": "2-ходовые встраиваемые клапаны",
+        "image": "data\\img\\csm_1_2-wege-einbauteile_a02d83f0d5.gif",
         "property": [
           "Патроны и крышки",
           "Штепсельные патроны по ISO7368/DIN24342",
@@ -224,29 +218,29 @@
         ],
         "groups": [
           {
+            "level": 2,
             "link": "/ru/assortiment/klapany-perekljuchenija/2-khodovye-vstraivaemye-klapany/patrony/",
-            "name": "Патроны",
-            "property": null,
-            "groups": null
+            "name": "Патроны"
           },
           {
+            "level": 2,
             "link": "/ru/assortiment/klapany-perekljuchenija/2-khodovye-vstraivaemye-klapany/kryshka-s-klapanami-upravlenija/",
-            "name": "Крышка с клапанами управления",
-            "property": null,
-            "groups": null
+            "name": "Крышка с клапанами управления"
           }
         ]
       }
     ]
   },
   {
+    "level": 0,
     "link": "/ru/assortiment/klapany-proporcionalnye/klapany-proporcionalnye-zolotnikovye/",
     "name": "Клапаны пропорциональные",
-    "property": null,
     "groups": [
       {
+        "level": 1,
         "link": "/ru/assortiment/klapany-proporcionalnye/klapany-proporcionalnye-zolotnikovye/",
         "name": "Клапаны пропорциональные золотниковые",
+        "image": "data\\img\\csm_1_proportional-schieberventile_145920839c.gif",
         "property": [
           "Исполнение с прямым и с пилотным управлением",
           "Фланцевая конструкция",
@@ -262,22 +256,22 @@
         ],
         "groups": [
           {
+            "level": 2,
             "link": "/ru/assortiment/klapany-proporcionalnye/klapany-proporcionalnye-zolotnikovye/proporcionalnye-zolotnikovye-klapany-s-prjamym-upravleniem/",
-            "name": "Пропорциональные золотниковые клапаны с прямым управлением",
-            "property": null,
-            "groups": null
+            "name": "Пропорциональные золотниковые клапаны с прямым управлением"
           },
           {
+            "level": 2,
             "link": "/ru/assortiment/klapany-proporcionalnye/klapany-proporcionalnye-zolotnikovye/klapany-proporcionalnye-zolotnikovye-s-pilotnym-upravleniem/",
-            "name": "Клапаны пропорциональные золотниковые с пилотным управлением",
-            "property": null,
-            "groups": null
+            "name": "Клапаны пропорциональные золотниковые с пилотным управлением"
           }
         ]
       },
       {
+        "level": 1,
         "link": "/ru/assortiment/klapany-proporcionalnye/klapany-davlenija-proporcionalnye/",
         "name": "Клапаны давления пропорциональные",
+        "image": "data\\img\\csm_1_proportional-druckventile_78ffa11e29.gif",
         "property": [
           "Клапаны редукционные пропорциональные и клапаны регулировки давления пропорциональные",
           "Исполнение с прямым и с пилотным управлением",
@@ -295,22 +289,22 @@
         ],
         "groups": [
           {
+            "level": 2,
             "link": "/ru/assortiment/klapany-proporcionalnye/klapany-davlenija-proporcionalnye/proporcionalnye-redukcionnye-klapany/",
-            "name": "Пропорциональные редукционные клапаны",
-            "property": null,
-            "groups": null
+            "name": "Пропорциональные редукционные клапаны"
           },
           {
+            "level": 2,
             "link": "/ru/assortiment/klapany-proporcionalnye/klapany-davlenija-proporcionalnye/klapany-regulirovki-davlenija-proporcionalnye/",
-            "name": "Клапаны регулировки давления пропорциональные",
-            "property": null,
-            "groups": null
+            "name": "Клапаны регулировки давления пропорциональные"
           }
         ]
       },
       {
+        "level": 1,
         "link": "/ru/assortiment/klapany-proporcionalnye/klapany-potochnye-proporcionalnye/",
         "name": "Клапаны поточные пропорциональные",
+        "image": "data\\img\\csm_1_proportional-stromventile_2a4a3a01a6.gif",
         "property": [
           "Клапаны дроссельные пропорциональные и клапаны регулирования объемного расхода пропорциональные",
           "Клапаны регулирования объемного расхода в 2- и 3-ходовом исполнении",
@@ -328,29 +322,29 @@
         ],
         "groups": [
           {
+            "level": 2,
             "link": "/ru/assortiment/klapany-proporcionalnye/klapany-potochnye-proporcionalnye/klapany-drosselnye-proporcionalnye/",
-            "name": "Клапаны дроссельные пропорциональные",
-            "property": null,
-            "groups": null
+            "name": "Клапаны дроссельные пропорциональные"
           },
           {
+            "level": 2,
             "link": "/ru/assortiment/klapany-proporcionalnye/klapany-potochnye-proporcionalnye/klapany-regulirovanija-obemnogo-raskhoda-proporcionalnye/",
-            "name": "Клапаны регулирования объемного расхода пропорциональные",
-            "property": null,
-            "groups": null
+            "name": "Клапаны регулирования объемного расхода пропорциональные"
           }
         ]
       }
     ]
   },
   {
+    "level": 0,
     "link": "/ru/assortiment/ehlektronnoe-oborudovanie/ehlektronnye-usiliteli/",
     "name": "Электронное оборудование",
-    "property": null,
     "groups": [
       {
+        "level": 1,
         "link": "/ru/assortiment/ehlektronnoe-oborudovanie/ehlektronnye-usiliteli/",
         "name": "Электронные усилители",
+        "image": "data\\img\\csm_1_verstaerkerelektronik_9e1891f490.gif",
         "property": [
           "Аналоговые и цифровые усилители",
           "Для применения в промышленных и мобильных изделиях",
@@ -364,22 +358,22 @@
         ],
         "groups": [
           {
+            "level": 2,
             "link": "/ru/assortiment/ehlektronnoe-oborudovanie/ehlektronnye-usiliteli/analogovye-ehlektronnye-usiliteli/",
-            "name": "Аналоговые электронные усилители",
-            "property": null,
-            "groups": null
+            "name": "Аналоговые электронные усилители"
           },
           {
+            "level": 2,
             "link": "/ru/assortiment/ehlektronnoe-oborudovanie/ehlektronnye-usiliteli/cifrovye-ehlektronnye-usiliteli/",
-            "name": "Цифровые электронные усилители",
-            "property": null,
-            "groups": null
+            "name": "Цифровые электронные усилители"
           }
         ]
       },
       {
+        "level": 1,
         "link": "/ru/assortiment/ehlektronnoe-oborudovanie/ehlektronnye-ustroistva-regulirovanija/",
         "name": "Электронные устройства регулирования",
+        "image": "data\\img\\csm_1_reglerelektronik_8e66c30a82.gif",
         "property": [
           "Цифровые устройства регулирования",
           "Регуляторы положения, давления, объемного расхода и расхода",
@@ -396,23 +390,24 @@
         ],
         "groups": [
           {
+            "level": 2,
             "link": "/ru/assortiment/ehlektronnoe-oborudovanie/ehlektronnye-ustroistva-regulirovanija/cifrovye-ustroistva-regulirovanija/",
-            "name": "Цифровые устройства регулирования",
-            "property": null,
-            "groups": null
+            "name": "Цифровые устройства регулирования"
           }
         ]
       }
     ]
   },
   {
+    "level": 0,
     "link": "/ru/assortiment/komplektujushchie/gidravlicheskie-komplektujushchie/",
     "name": "Комплектующие",
-    "property": null,
     "groups": [
       {
+        "level": 1,
         "link": "/ru/assortiment/komplektujushchie/gidravlicheskie-komplektujushchie/",
         "name": "Гидравлические комплектующие",
+        "image": "data\\img\\csm_1_hydraulisches_zubehoer_a0350514a1.gif",
         "property": [
           "Резьбовые присоединительные пластины, монтажные плиты для нескольких устройств, блоки продольного сопряжения, резьбовые присоединительные блоки, многослойные резьбовые блоки, резьбовые присоединительные блоки для резьбовых патронов, заглушки и поворотные пластины, уплотняющие и промежуточные пластины and distance plates",
           "Резьбовые присоединительные блоки для резьбовых патронов по ISO 7789",
@@ -422,83 +417,77 @@
         ],
         "groups": [
           {
+            "level": 2,
             "link": "/ru/assortiment/komplektujushchie/gidravlicheskie-komplektujushchie/rezbovye-prisoedinitelnye-plastiny/",
-            "name": "Резьбовые присоединительные пластины",
-            "property": null,
-            "groups": null
+            "name": "Резьбовые присоединительные пластины"
           },
           {
+            "level": 2,
             "link": "/ru/assortiment/komplektujushchie/gidravlicheskie-komplektujushchie/montazhnye-plity-dlja-neskolkikh-ustroistv/",
-            "name": "Монтажные плиты для нескольких устройств",
-            "property": null,
-            "groups": null
+            "name": "Монтажные плиты для нескольких устройств"
           },
           {
+            "level": 2,
             "link": "/ru/assortiment/komplektujushchie/gidravlicheskie-komplektujushchie/bloki-prodolnogo-soprjazhenija/",
-            "name": "Блоки продольного сопряжения",
-            "property": null,
-            "groups": null
+            "name": "Блоки продольного сопряжения"
           },
           {
+            "level": 2,
             "link": "/ru/assortiment/komplektujushchie/gidravlicheskie-komplektujushchie/rezbovoi-prisoedinitelnyi-blok/",
-            "name": "Резьбовой присоединительный блок",
-            "property": null,
-            "groups": null
+            "name": "Резьбовой присоединительный блок"
           },
           {
+            "level": 2,
             "link": "/ru/assortiment/komplektujushchie/gidravlicheskie-komplektujushchie/mnogosloinyi-rezbovoi-blok/",
-            "name": "Многослойный резьбовой блок",
-            "property": null,
-            "groups": null
+            "name": "Многослойный резьбовой блок"
           },
           {
+            "level": 2,
             "link": "/ru/assortiment/komplektujushchie/gidravlicheskie-komplektujushchie/kreplenija-dlja-prodolnogo-soprjazhenija/",
-            "name": "Крепления для продольного сопряжения",
-            "property": null,
-            "groups": null
+            "name": "Крепления для продольного сопряжения"
           },
           {
+            "level": 2,
             "link": "/ru/assortiment/komplektujushchie/gidravlicheskie-komplektujushchie/kreplenija-dlja-vertikalnogo-soprjazhenija/",
-            "name": "Крепления для вертикального сопряжения",
-            "property": null,
-            "groups": null
+            "name": "Крепления для вертикального сопряжения"
           },
           {
+            "level": 2,
             "link": "/ru/assortiment/komplektujushchie/gidravlicheskie-komplektujushchie/zaglushki-i-povorotnye-plastiny/",
-            "name": "Заглушки и поворотные пластины",
-            "property": null,
-            "groups": null
+            "name": "Заглушки и поворотные пластины"
           },
           {
+            "level": 2,
             "link": "/ru/assortiment/komplektujushchie/gidravlicheskie-komplektujushchie/uplotnjajushchie-i-promezhutochnye-plastiny/",
-            "name": "Уплотняющие и промежуточные пластины",
-            "property": null,
-            "groups": null
+            "name": "Уплотняющие и промежуточные пластины"
           },
           {
+            "level": 2,
             "link": "/ru/assortiment/komplektujushchie/gidravlicheskie-komplektujushchie/distance-plates/",
-            "name": "Distance plates",
-            "property": null,
-            "groups": null
+            "name": "Distance plates"
           }
         ]
       },
       {
+        "level": 1,
         "link": "/ru/assortiment/komplektujushchie/ehlektronnoe-oborudovanie-komplektujushchie/",
         "name": "Электронное оборудование, комплектующие",
-        "property": null,
+        "property": [
+          "Пружинная контактная планка, держатель сменных плат"
+        ],
         "groups": [
           {
+            "level": 2,
             "link": "/ru/assortiment/komplektujushchie/ehlektronnoe-oborudovanie-komplektujushchie/ehlektronnoe-oborudovanie-komplektujushchie/",
-            "name": "Электронное оборудование, комплектующие",
-            "property": [],
-            "groups": null
+            "name": "Электронное оборудование, комплектующие"
           }
         ]
       },
       {
+        "level": 1,
         "link": "/ru/assortiment/komplektujushchie/ehlektromagnity/",
         "name": "Электромагниты",
+        "image": "data\\img\\csm_1_magnete_1ad3cb2be0.gif",
         "property": [
           "Магниты переключающие и пропорциональные",
           "Исполнение фланцевое и со сменными катушками",
@@ -513,35 +502,34 @@
         ],
         "groups": [
           {
+            "level": 2,
             "link": "/ru/assortiment/komplektujushchie/ehlektromagnity/perekljuchajushchie-ehlektromagnity/",
-            "name": "Переключающие электромагниты",
-            "property": null,
-            "groups": null
+            "name": "Переключающие электромагниты"
           },
           {
+            "level": 2,
             "link": "/ru/assortiment/komplektujushchie/ehlektromagnity/proporcionalnye-ehlektromagnity/",
-            "name": "Пропорциональные электромагниты",
-            "property": null,
-            "groups": null
+            "name": "Пропорциональные электромагниты"
           },
           {
+            "level": 2,
             "link": "/ru/assortiment/komplektujushchie/ehlektromagnity/smennye-katushki-so-shtepselnym-kontaktom/",
-            "name": "Сменные катушки со штепсельным контактом",
-            "property": null,
-            "groups": null
+            "name": "Сменные катушки со штепсельным контактом"
           }
         ]
       }
     ]
   },
   {
+    "level": 0,
     "link": "/ru/assortiment/atex-ustroistva/atex-klapany/",
     "name": "ATEX-устройства",
-    "property": null,
     "groups": [
       {
+        "level": 1,
         "link": "/ru/assortiment/atex-ustroistva/atex-klapany/",
         "name": "ATEX-клапаны",
+        "image": "data\\img\\csm_1_atex_ventile_4ea84bcd8b.gif",
         "property": [
           "Клапаны золотниковые, клапаны пропорциональные золотниковые, клапаны тарельчатые, клапаны давления пропорциональные",
           "Фланцевое и патронное исполнение",
@@ -558,34 +546,32 @@
         ],
         "groups": [
           {
+            "level": 2,
             "link": "/ru/assortiment/atex-ustroistva/atex-klapany/zolotnikovye-klapany-atex/",
-            "name": "Золотниковые клапаны ATEX",
-            "property": null,
-            "groups": null
+            "name": "Золотниковые клапаны ATEX"
           },
           {
+            "level": 2,
             "link": "/ru/assortiment/atex-ustroistva/atex-klapany/tarelchatye-klapany-atex/",
-            "name": "Тарельчатые клапаны ATEX",
-            "property": null,
-            "groups": null
+            "name": "Тарельчатые клапаны ATEX"
           },
           {
+            "level": 2,
             "link": "/ru/assortiment/atex-ustroistva/atex-klapany/klapany-davlenija-atex/",
-            "name": "Клапаны давления ATEX",
-            "property": null,
-            "groups": null
+            "name": "Клапаны давления ATEX"
           },
           {
+            "level": 2,
             "link": "/ru/assortiment/atex-ustroistva/atex-klapany/atex-flow-control-valves/",
-            "name": "ATEX flow control valves",
-            "property": null,
-            "groups": null
+            "name": "ATEX flow control valves"
           }
         ]
       },
       {
+        "level": 1,
         "link": "/ru/assortiment/atex-ustroistva/ehlektromagnity-atex/",
         "name": "Электромагниты ATEX",
+        "image": "data\\img\\csm_1_atex-magnete_884b596af8.gif",
         "property": [
           "Заливка компаундом и искробезопасность",
           "Конструкция со сменной катушкой",
@@ -598,16 +584,14 @@
         ],
         "groups": [
           {
+            "level": 2,
             "link": "/ru/assortiment/atex-ustroistva/ehlektromagnity-atex/zalivka-kompaundom/",
-            "name": "Заливка компаундом",
-            "property": null,
-            "groups": null
+            "name": "Заливка компаундом"
           },
           {
+            "level": 2,
             "link": "/ru/assortiment/atex-ustroistva/ehlektromagnity-atex/iskrobezopasnost/",
-            "name": "Искробезопасность",
-            "property": null,
-            "groups": null
+            "name": "Искробезопасность"
           }
         ]
       }
