@@ -99,6 +99,8 @@ public class Solution {
 
                 group.setLevel(level);
 
+                System.out.print(level);
+
                 switch (level) {
                     case 1:
                         parsePropertyImage(group);
@@ -133,7 +135,7 @@ public class Solution {
         }
     }
 
-    private static List<Product> parseProducts(Element table) {
+    private static List<Product> parseProducts(Element table) throws IOException {
         List<Product> products = new ArrayList<>();
 
         //заголовок таблицы (названия полей, свойств продукта)
@@ -158,6 +160,13 @@ public class Solution {
 
                 if (fields.get(i).text().equals("Размеры") || fields.get(i).text().equals("Size"))
                     product.setSize(cols.get(i).text());
+
+                String linkPdf = cols.get(0).getElementsByTag("a").attr("href");
+                String link = HOST + linkPdf;
+                String[] path = link.split("/");
+                String filePathName = UPLOAD_PDF + path[path.length - 1];
+                if (downloadFile(link, filePathName))
+                    product.setPdfFile(filePathName);
             }
 
             products.add(product);
