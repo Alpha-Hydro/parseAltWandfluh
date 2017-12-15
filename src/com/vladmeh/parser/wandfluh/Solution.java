@@ -6,12 +6,10 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
-import sun.plugin.javascript.navig.Array;
 
 import java.io.*;
 import java.net.URL;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -22,6 +20,7 @@ public class Solution {
     private static final String HOST = "http://alt.wandfluh.com";
     public static final String UPLOAD_IMG = "data\\img\\";
     public static final String UPLOAD_PDF = "data\\pdf\\";
+
     /**
      * The entry point of application.
      *
@@ -35,16 +34,8 @@ public class Solution {
 
         List<Section> sections = getSubSections(element, 0);
         writeJsonFile(sections);
-
-        /*String link = HOST + "/fileadmin/user_upload/files/A_Dok/reg_1_2/1_2_26p_e.pdf";
-        String[] path = link.split("/");
-        String filePathName = UPLOAD_PDF + path[path.length -1];
-
-        File file = new File(filePathName);
-
-
-        System.out.println(!file.exists());*/
     }
+
 
     /**
      * @param list List
@@ -69,7 +60,7 @@ public class Solution {
     }
 
     /**
-     * @param link String
+     * @param link         String
      * @param filePathName String
      * @return boolean
      * @throws IOException the io exception
@@ -77,7 +68,7 @@ public class Solution {
     private static boolean downloadFile(String link, String filePathName) throws IOException {
         URL url = new URL(link);
         File file = new File(filePathName);
-        if (!file.exists()){
+        if (!file.exists()) {
             try (
                     InputStream is = new BufferedInputStream(url.openStream());
                     OutputStream os = new FileOutputStream(file)
@@ -100,21 +91,23 @@ public class Solution {
     private static List<Section> getSubSections(Element element, int level) throws IOException {
         List<Section> subSections = new ArrayList<>();
 
-        if (element.nextElementSibling() != null){
+        if (element.nextElementSibling() != null) {
             Elements elements = element.nextElementSibling().children();
-            for (Element el: elements){
+            for (Element el : elements) {
                 Element a = el.getElementsByTag("a").first();
                 Section group = new Section(a.attr("href"), a.text());
 
                 group.setLevel(level);
 
-                switch (level){
-                    case 1: parsePropertyImage(group);
-                    case 2: parseProductCategory(group);
+                switch (level) {
+                    case 1:
+                        parsePropertyImage(group);
+                    case 2:
+                        parseProductCategory(group);
                 }
 
-                List<Section> subGroups = getSubSections(a, level+1);
-                if (!subGroups.isEmpty()){
+                List<Section> subGroups = getSubSections(a, level + 1);
+                if (!subGroups.isEmpty()) {
                     group.setGroups(subGroups);
                 }
                 subSections.add(group);
@@ -126,18 +119,53 @@ public class Solution {
 
     private static void parseProductCategory(Section group) throws IOException {
         Document pageProducts = Jsoup.connect(HOST + group.getLink()).get();
-
         Elements tableProducts = pageProducts.select("table.wagtable");
 
-        if (tableProducts != null && !tableProducts.isEmpty()){
+        if (tableProducts != null && !tableProducts.isEmpty()) {
             List<ProductCategory> productCategories = new ArrayList<>();
-            for (Element table: tableProducts){
+            for (Element table : tableProducts) {
                 Element title = table.previousElementSibling();
-                productCategories.add(new ProductCategory(title.children().text()));
+                ProductCategory productCategory = new ProductCategory(title.children().text());
+                productCategory.setProducts(parseProducts(table));
+                productCategories.add(productCategory);
             }
             group.setProductCategories(productCategories);
         }
     }
+
+    private static List<Product> parseProducts(Element table) {
+        List<Product> products = new ArrayList<>();
+
+        //заголовок таблицы (названия полей, свойств продукта)
+        Elements fields = table.selectFirst("thead").select("td");
+        //строки таблицы (товары)
+        Elements rows = table.selectFirst("tbody").select("tr");
+
+        //читаем строки (товары)
+        for (Element row : rows) {
+            //получаем ячейки (свойства)
+            Elements cols = row.select("td");
+            Product product = new Product();
+            //читаем каждую ячейку (свойство)
+            for (int i = 0; i < cols.size(); i++) {
+                if (i <= 1) {
+                    product.setDataSheetNo(cols.get(0).text());
+                    product.setConstruction(cols.get(1).text());
+                }
+                //сравниваем индекс ячейки заголовка
+                if (fields.get(i).text().equals("Тип") || fields.get(i).text().equals("Type"))
+                    product.setType(cols.get(i).text());
+
+                if (fields.get(i).text().equals("Размеры") || fields.get(i).text().equals("Size"))
+                    product.setSize(cols.get(i).text());
+            }
+
+            products.add(product);
+        }
+
+        return products;
+    }
+
 
     private static void parsePropertyImage(Section group) throws IOException {
         Document pageGroup = Jsoup.connect(HOST + group.getLink()).get();
@@ -145,23 +173,23 @@ public class Solution {
         Element container = pageGroup.getElementById("fcecontainer2");
         Element elProperty = container.getElementsByTag("ul").first();
 
-        if (elProperty != null){
+        if (elProperty != null) {
             Elements list = elProperty.children();
             List<String> properties = new ArrayList<>();
-            for (Element li: list)
+            for (Element li : list)
                 properties.add(li.text());
 
             group.setProperty(properties);
         }
 
         Element elImage = pageGroup.selectFirst(".csc-textpic-image");
-        if (elImage != null){
+        if (elImage != null) {
             Element img = elImage.getElementsByTag("img").first();
             String linkImg = img.attr("src");
 
             String link = HOST + linkImg;
             String[] path = link.split("/");
-            String filePathName = UPLOAD_IMG + path[path.length -1];
+            String filePathName = UPLOAD_IMG + path[path.length - 1];
 
             if (downloadFile(link, filePathName))
                 group.setImage(filePathName);
