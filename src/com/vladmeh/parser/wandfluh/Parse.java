@@ -2,6 +2,7 @@ package com.vladmeh.parser.wandfluh;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import org.jsoup.Connection;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -13,13 +14,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * The type Solution.
+ * The type Parse.
  */
-public class Solution {
+public class Parse {
 
     private static final String HOST = "http://alt.wandfluh.com";
-    public static final String UPLOAD_IMG = "data\\img\\";
-    public static final String UPLOAD_PDF = "data\\pdf\\";
+    private static final String UPLOAD_IMG = "data\\img\\";
+    private static final String UPLOAD_PDF = "data\\pdf\\";
 
     /**
      * The entry point of application.
@@ -28,9 +29,9 @@ public class Solution {
      * @throws IOException the io exception
      */
     public static void main(String[] args) throws IOException {
-        Document web = Jsoup.connect("http://alt.wandfluh.com/ru/karta-saita/").get();
+        Connection connect = Jsoup.connect("http://alt.wandfluh.com/ru/karta-saita/");
+        Document web = connect.get();
         Element element = web.body().getElementsByAttributeValue("title", "Ассортимент").first();
-
 
         List<Section> sections = getSubSections(element, 0);
         writeJsonFile(sections);
@@ -119,6 +120,10 @@ public class Solution {
         return subSections;
     }
 
+    /**
+     * @param group Section
+     * @throws IOException the io exception
+     */
     private static void parseProductCategory(Section group) throws IOException {
         Document pageProducts = Jsoup.connect(HOST + group.getLink()).get();
         Elements tableProducts = pageProducts.select("table.wagtable");
@@ -135,6 +140,11 @@ public class Solution {
         }
     }
 
+    /**
+     * @param table Element
+     * @return List<Product>
+     * @throws IOException the io exception
+     */
     private static List<Product> parseProducts(Element table) throws IOException {
         List<Product> products = new ArrayList<>();
 
@@ -164,9 +174,10 @@ public class Solution {
                 String linkPdf = cols.get(0).getElementsByTag("a").attr("href");
                 String link = HOST + linkPdf;
                 String[] path = link.split("/");
-                String filePathName = UPLOAD_PDF + path[path.length - 1];
+                String fileName = path[path.length - 1];
+                String filePathName = UPLOAD_PDF + fileName;
                 if (downloadFile(link, filePathName))
-                    product.setPdfFile(filePathName);
+                    product.setPdfFile(fileName);
             }
 
             products.add(product);
@@ -176,6 +187,10 @@ public class Solution {
     }
 
 
+    /**
+     * @param group Section
+     * @throws IOException the io exception
+     */
     private static void parsePropertyImage(Section group) throws IOException {
         Document pageGroup = Jsoup.connect(HOST + group.getLink()).get();
 
@@ -198,10 +213,11 @@ public class Solution {
 
             String link = HOST + linkImg;
             String[] path = link.split("/");
-            String filePathName = UPLOAD_IMG + path[path.length - 1];
+            String fileName = path[path.length - 1];
+            String filePathName = UPLOAD_IMG + fileName;
 
             if (downloadFile(link, filePathName))
-                group.setImage(filePathName);
+                group.setImage(fileName);
         }
     }
 }
