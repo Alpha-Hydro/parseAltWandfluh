@@ -4,11 +4,49 @@ package com.vladmeh.parser.wandfluh;
  * @autor mvl on 14.12.2017.
  */
 public class Product {
+    private int id;
+
     private String dataSheetNo;
     private String construction;
     private String size;
     private String type;
     private String pdfFile;
+
+    private int sizeId;
+    private int constructionId;
+    private int typeId;
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public int getSizeId() {
+        return sizeId;
+    }
+
+    public void setSizeId(int sizeId) {
+        this.sizeId = sizeId;
+    }
+
+    public int getConstructionId() {
+        return constructionId;
+    }
+
+    public void setConstructionId(int constructionId) {
+        this.constructionId = constructionId;
+    }
+
+    public int getTypeId() {
+        return typeId;
+    }
+
+    public void setTypeId(int typeId) {
+        this.typeId = typeId;
+    }
 
     public String getDataSheetNo() {
         return dataSheetNo;

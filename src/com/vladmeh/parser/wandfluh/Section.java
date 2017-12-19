@@ -6,6 +6,8 @@ import java.util.List;
  * @autor mvl on 12.12.2017.
  */
 public class Section {
+    private int id;
+
     private Integer level;
 
     private String link;
@@ -26,6 +28,14 @@ public class Section {
     public Section(String link, String name) {
         this.link = link;
         this.name = name;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getLink() {

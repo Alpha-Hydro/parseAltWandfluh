@@ -79,6 +79,7 @@ public class Parse {
                 while ((length = is.read(buffer)) > 0) {
                     os.write(buffer, 0, length);
                 }
+                os.flush();
             }
         }
         return true;
